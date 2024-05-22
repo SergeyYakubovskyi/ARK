@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Contacts</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240522202929">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__wrap line">
+				<div class="header__container">
+					<a href="home.html" class="header__logo"><img src="img/icons/logo.svg" alt="logo"></a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item" data-goto=".about"><a href="#" class="menu__link">About</a></li>
+								<li class="menu__item" data-goto=".services"><a href="#" class="menu__link">Services</a></li>
+								<li class="menu__item" data-goto=".recent-projects"><a href="#" class="menu__link">Projects</a></li>
+								<li class="menu__item" data-goto=".team"><a href="#" class="menu__link">Team</a></li>
+								<li class="menu__item" data-goto=".blog"><a href="#" class="menu__link">Blog</a></li>
+							</ul>
+						</nav>
+						<div class="header__actions action-header">
+							<button type="button" class="menu__icon icon-menu">
+								<span></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="contanct">
+				<div class="contanct__container">
+					<div class="contanct__content">
+						<h1 class="contanct__title title title--s">We will be glad to contact you</h1>
+						<div data-tabs class="contact__tabs contact-tabs">
+							<nav data-tabs-titles class="contact-tabs__navigation">
+								<button type="button" class="contact-tabs__title _tab-active">Phone Number</button>
+								<button type="button" class="contact-tabs__title">Email</button>
+							</nav>
+							<div data-tabs-body class="contact-tabs__content">
+								<div class="contact-tabs__body">
+									<div class="contact-tabs__row">
+										<h2 class="contact-tabs__text text text--big">Give us your number and we will call you now</h2>
+										<form class="contact__form contact-form" action="files/sendmail/sendmail.php" method="POST">
+											<input type="text" name="form[email]" placeholder="Your name" class="contact__input input">
+											<input data-required="email" type="text" name="form[email]" data-error="Error" placeholder="+(33) 00 55 59 27" class="contact-form__input input">
+											<button type="submit" class="contact-form__button button">Contact us</button>
+										</form>
+									</div>
+								</div>
+								<div class="contact-tabs__body">
+									<div class="contact-tabs__row">
+										<h2 class="contact-tabs__text text text--big">Give us your number and we will call you now</h2>
+										<form class="contact__form contact-form" action="files/sendmail/sendmail.php" method="POST">
+											<input data-required="email" type="text" name="form[email]" data-error="Error" placeholder="Email" class="contact-form__input input">
+											<button type="submit" class="contact-form__button button">Contact us</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__top top-footer">
+				<div class="top-footer__wrap line">
+					<div class="top-footer__container">
+						<h2 class="top-footer__title title title--m">
+							Start a Project?
+						</h2>
+						<a class="top-footer__button button" href="#">Contact Us</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__middl middle-footer">
+				<div class="middle-footer__container">
+					<div class="middle-footer__wrap">
+						<div class="middle-footer__supp supp">
+							<h3 class="supp__title title title--s">Support is available 24 hours</h3>
+							<a class="supp__button button" href="#">Contact Us</a>
+						</div>
+						<div class="middle-footer__cols col">
+							<address class="col__body">
+								<div class="col__item">North</div>
+								<div class="col__item">ALF Architects</div>
+								<div class="col__item">St George's House</div>
+								<div class="col__item">56 Peter Street</div>
+								<div class="col__item">Manchester</div>
+								<div class="col__item">M2 3NQ</div>
+								<a class="col__item col__item--phone " href="tel:4401612366263">+44 (0)1612366263</a>
+							</address>
+							<address class="col__body">
+								<div class="col__item">Midlands</div>
+								<div class="col__item">AFL Architects</div>
+								<div class="col__item">Unit 12</div>
+								<div class="col__item">133 Newhall Street</div>
+								<div class="col__item">Birmingham</div>
+								<div class="col__item">B3 1SF</div>
+								<a class="col__item col__item--phone " href="tel:4401612366263">+44 (0)1612366263</a>
+							</address>
+							<address class="col__body">
+								<div class="col__item">South</div>
+								<div class="col__item">AFL Architects</div>
+								<div class="col__item">24 Greville Street</div>
+								<div class="col__item">London</div>
+								<div class="col__item">EC1N 8SS</div>
+								<div class="col__item">E4</div>
+								<a class="col__item col__item--phone " href="tel:4401612366263">+44 (0)1612366263</a>
+							</address>
+						</div>
+					</div>
+					<div class="middle-footer__bottom">
+						<ul class="middle-footer__nav">
+							<li class="middle-footer__item"><a class="middle-footer__link" href="#">About</a></li>
+							<li class="middle-footer__item"><a class="middle-footer__link" href="#">Services</a></li>
+							<li class="middle-footer__item"><a class="middle-footer__link" href="#">Projects</a></li>
+							<li class="middle-footer__item"><a class="middle-footer__link" href="#">Team</a></li>
+							<li class="middle-footer__item"><a class="middle-footer__link" href="#">Blog</a></li>
+						</ul>
+						<ul class="middle-footer__social social">
+							<li class="social__item"><a class="social__link icon-s-insta" href="#" aria-label="link instagram page"></a></li>
+							<li class="social__item"><a class="social__link icon-s-twitter" href="#" aria-label="link twitter page"></a></li>
+							<li class="social__item"><a class="social__link icon-s-linkedin" href="#" aria-label="link linkedin page"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__wrap line-top">
+					<div class="bottom-footer__container">
+						<div class="bottom-footer__copy">© Copywriting | All Rights Reserved</div>
+						<div class="bottom-footer__privecy privecy">
+							<a class="privecy__link" href="#"> Terms of Use</a>
+							<span>|</span>
+							<a class="privecy__link" href="#">Privacy</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240522202929"></script>
+</body>
+
+</html>
